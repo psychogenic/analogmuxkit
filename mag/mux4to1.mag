@@ -1,0 +1,47 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1729198599
+<< metal1 >>
+rect 140 5176 268 5270
+rect 2482 4830 2682 5030
+rect 3264 4830 3464 5028
+rect 3538 4828 3738 5028
+rect 4582 4824 4782 5024
+rect 5612 4838 5812 5038
+rect 196 3080 258 3174
+rect 326 3070 388 3164
+rect 2454 -42 2654 294
+rect 2706 70 2890 268
+rect 3522 -42 3722 298
+rect 4592 -42 4792 262
+rect 5646 -42 5846 254
+rect 2454 -242 5846 -42
+use mux4onehot  mux4onehot_0
+timestamp 1729136797
+transform 1 0 -4658 0 1 8054
+box 4658 -8054 11287 -2405
+<< labels >>
+flabel metal1 326 3070 388 3164 0 FreeSans 1600 0 0 0 select0
+port 0 nsew
+flabel metal1 196 3080 258 3174 0 FreeSans 1120 0 0 0 select1
+port 1 nsew
+flabel space 440 3078 502 3172 0 FreeSans 1120 0 0 0 select2
+port 2 nsew
+flabel metal1 2482 4830 2682 5030 0 FreeSans 1120 0 0 0 A1
+port 3 nsew
+flabel metal1 3538 4828 3738 5028 0 FreeSans 1120 0 0 0 A2
+port 4 nsew
+flabel metal1 4582 4824 4782 5024 0 FreeSans 1120 0 0 0 A3
+port 5 nsew
+flabel metal1 5612 4838 5812 5038 0 FreeSans 1120 0 0 0 A4
+port 6 nsew
+flabel metal1 4028 -230 4228 -48 0 FreeSans 1120 0 0 0 Z
+port 7 nsew
+flabel metal1 140 5176 268 5270 0 FreeSans 1120 0 0 0 nselect2
+port 8 nsew
+flabel metal1 2706 70 2890 268 0 FreeSans 1120 0 0 0 VDD
+port 9 nsew
+flabel metal1 3264 4830 3464 5028 0 FreeSans 1120 0 0 0 VSS
+port 10 nsew
+<< end >>

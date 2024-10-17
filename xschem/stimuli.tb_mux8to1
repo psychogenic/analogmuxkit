@@ -1,0 +1,61 @@
+unit n
+voltage VCC
+slope 1
+format hspice_simple
+
+param eval 8000
+
+beginfile stimuli_tb_8muxonehot.cir
+set vss 0
+set vcc 1
+set sel0 0
+set sel1 0
+set sel2 0
+s eval
+set sel0 1
+set sel1 0
+s eval
+
+set sel0 0
+set sel1 1
+s eval
+
+set sel0 1
+set sel1 1
+s eval
+
+set sel0 0
+set sel1 0
+s eval*2
+set sel1 1
+s eval
+
+set sel0 0
+set sel1 0
+set sel2 1
+s eval
+
+s eval
+set sel0 1
+set sel1 0
+s eval
+
+set sel0 0
+set sel1 1
+s eval
+
+set sel0 1
+set sel1 1
+s eval
+
+set sel0 0
+set sel1 0
+s eval*2
+set sel1 1
+s eval
+
+
+
+
+
+endfile

@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  title:        "Analog MUX kit"      # Project title
+  author:       "Pat Deegan"      # Your name
+  discord:      "psychogenictech"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "4- and 8- sets of analog switches, to use as one-hot or 4:1/8:1 MUXes"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 

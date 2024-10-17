@@ -13,3 +13,6 @@ test/gate_level_netlist.v
 lvs.report
 mag/*.ext
 mag/std/*.ext
+mag/*.spice
+mag/*.sim
+mag/*.nodes
